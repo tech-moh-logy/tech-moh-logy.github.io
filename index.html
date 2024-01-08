@@ -6,7 +6,6 @@
 <!-- Copyright © 2023 Mohammed. All rights reserved.
 Unauthorized copying, redistribution, forking, or cloning of the content of this portfolio website is strictly prohibited. -->
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +14,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iMohammed</title>
-  <link rel="icon" href="image_m-logo.JPG">
+  <link rel="icon" href="./assets/images/image_m-logo.JPG">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,7 +27,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--
     - google font link
@@ -44,7 +43,8 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
     - #MAIN
   -->
 
-  <main>
+  <!-- class type is not required (check line 13-16 on the css file) -->
+  <main class="no-hover-underline">
 
     <!--
       - #SIDEBAR
@@ -55,13 +55,13 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="image_m-logo.JPG" alt="Main Avatar" width="80">
+          <img src="./assets/images/image_m-logo.JPG" alt="Main Avatar" width="80">
         </figure>
 
         <div class="info-content">
           <!-- <p class="title" style="font-family: monospace;">MOHAMMED</p> -->
           <br>
-          <h1 class="name" title="Mohammed"><p class="main-web-text" style="font-family: monospace;">MOHAMMED</p></h1>
+          <h1 class="name" title="Mohammed"><p class="main-web-text" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">MOHAMMED U.</p></h1>
 
           <p class="title" style="font-family: monospace;">Developer • Instructor</p>
         </div>
@@ -94,6 +94,17 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
           </li>
 
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+          
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/mohtech/" class="social-link">✓ ᴍᴏʜᴀᴍᴍᴇᴅ U.</a>
+            </div>
+          </li>
+
 
           <li class="contact-item">
             <div class="icon-box">
@@ -107,7 +118,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
           </li>
 
 
-          <li class="contact-item">
+          <!-- <li class="contact-item">
             <div class="icon-box">
               <ion-icon name="logo-linkedin"></ion-icon>
             </div>
@@ -116,7 +127,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               <p class="contact-title">LinkedIn</p>
               <a href="https://www.linkedin.com/in/mohtech/" class="social-link">✓ ᴍᴏʜᴀᴍᴍᴇᴅ</a>
             </div>
-          </li>
+          </li> -->
 
           <!-- <li class="contact-item">
             <div class="icon-box">
@@ -134,6 +145,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
         <div class="separator"></div>
 
+        <!-- <p>MOHAMMED © 2024</p> -->
         
 
         <!-- <ul class="social-list">
@@ -154,6 +166,9 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
         </ul> -->
 
       </div>
+
+      <hr>
+      <p style="font-size: .405rem; justify-content: center; text-align: center; color: rgb(192, 181, 181);">MOHAMMED | Copyright © 2024. All Rights Reserved.</p>
 
     </aside>
 
@@ -216,7 +231,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
         <section class="about-text">
 		An accomplished former <b class="distinction-neon-text">Lead STEM Instructor</b> and <b class="distinction-neon-text">Technology Specialist</b> rooted in New York City, Mohammed embodies a rare fusion of technical prowess, educational passion, and design finesse. With a demonstrated aptitude for wielding a diverse array of tools and technologies, they excel in problem-solving and curating captivating, informative content. Their journey is driven by a relentless pursuit of leveraging these skills and experiences within a technical internship setting to effect substantial and meaningful change.
 
-    Currently on the lookout for <b class="distinction-neon-text">internship opportunities</b>, Mohammed’s expertise spans a spectrum of roles, including <b class="distinction-neon-text">Software Engineering, Data Science, Machine Learning, and Full Stack Development</b>. Their multifaceted skill set and unwavering dedication make them a compelling candidate poised to make a profound impact in any technical environment.
+    Currently on the lookout for <b class="distinction-neon-text">internship opportunities</b>, Mohammed’s expertise spans a spectrum of roles, including <b class="distinction-neon-text">Software Engineering, Data Science, Machine Learning, Full Stack Development and Product Design</b>. Their multifaceted skill set and unwavering dedication make them a compelling candidate poised to make a profound impact in any technical environment.
 
         </section>
 
@@ -227,14 +242,15 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
         <section class="service">
 
-          <h3 class="h3 service-title"><br>What i'm doing</h3>
+          <h3 class="h3 service-title">What i'm doing</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="icon-design.svg" alt="design icon" width="40">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -250,7 +266,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -266,7 +282,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -282,7 +298,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -324,7 +340,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="timeSquares.JPG" alt="UA" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/timeSquares.JPG" alt="UA" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Former Manager</h4>
@@ -342,7 +358,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="timeSquares.JPG" alt="BN" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/timeSquares.JPG" alt="BN" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>NYU Professor</h4>
@@ -360,7 +376,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="timeSquares.JPG" alt="NYUs" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/timeSquares.JPG" alt="NYUs" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>NYCDOE Lead</h4>
@@ -378,7 +394,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="timeSquares.JPG" alt="LC" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/timeSquares.JPG" alt="LC" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Local Community</h4>
@@ -413,10 +429,10 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="timeSquares.JPG" alt="pictures" width="80" data-modal-img>
+                <img src="./assets/images/timeSquares.JPG" alt="pictures" width="80" data-modal-img>
               </figure>
 
-              <img src="icon-quote.svg" alt="quote icon">
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
 
 
@@ -452,43 +468,43 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Projects</h3>
+          <h3 class="h3 clients-title">Portfolio Overview</h3>
 
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
               <a href="#">
-                <img src="namasteKart-site.JPG" alt="client logo">
+                <img src="./assets/images/namasteKart-site.JPG" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="bugatti.jpg" alt="client logo">
+                <img src="./assets/images/bugatti.jpg" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="ACTIFIX-Screenshot.jpg.png" alt="client logo">
+                <img src="./assets/images/ACTIFIX-Screenshot.jpg.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="namasteKart-app.png" alt="client logo">
+                <img src="./assets/images/namasteKart-app.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="chroniclesUnveiled.jpg" alt="client logo">
+                <img src="./assets/images/chroniclesUnveiled.jpg" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="timeSquares.JPG" alt="client logo">
+                <img src="./assets/images/timeSquares.JPG" alt="client logo">
               </a>
             </li>
 
@@ -511,6 +527,16 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
+
+        <p>
+          <!-- This is a <b class="distinction-neon-text">summarized version</b> of my resume - please reach out on 
+          <a href="https://www.linkedin.com/in/mohtech/"><b class="distinction-neon-text">LinkedIn</b></a> 
+          for a detailed overview. -->
+
+          This is a <b class="distinction-neon-text">condensed version</b> of my resume. For a comprehensive overview or to connect, please feel free to message me directly on <a href="https://www.linkedin.com/in/mohtech/"><b class="distinction-neon-text">LinkedIn</b></a>.
+        </p>
+        
+        <hr>
 
         <section class="timeline">
 
@@ -695,23 +721,31 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web Design</button>
-            </li>
-
-            <li class="filter-item">
               <button data-filter-btn>Artwork</button>
             </li>
 
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Application</button>
+            </li> -->
+
             <li class="filter-item">
-              <button data-filter-btn>Web Development</button>
+              <button data-filter-btn>Data Science/Analytics</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Application</button>
+              <button data-filter-btn>Data Structures & Algorithms</button>
             </li>
 
             <li class="filter-item">
               <button data-filter-btn>Photography</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design + Development</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web Development</button> -->
             </li>
 
           </ul>
@@ -735,24 +769,32 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web Design</button>
-              </li>
-
-              <li class="select-item">
                 <button data-select-item>Artwork</button>
               </li>
 
+              <!-- <li class="select-item">
+                <button data-select-item>Application</button>
+              </li> -->
+
               <li class="select-item">
-                <button data-select-item>Web Development</button>
+                <button data-select-item>Data Science/Analytics</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Application</button>
+                <button data-select-item>Data Structures & Algorithms</button>
               </li>
 
               <li class="select-item">
                 <button data-filter-btn>Photography</button>
               </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design + Development</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li> -->
 
             </ul>
 
@@ -760,7 +802,25 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="web design + development">
+              <a href="https://tech-moh-logy.github.io/#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/personal-website.png" alt="iMohammed" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">iMohammed (Currently Viewing)</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design + development">
               <a href="https://www.loom.com/share/ec8601a75b024699a3802439ccdc7e09?sid=642dd8ed-9573-40c1-888d-5144e2558ae6">
 
                 <figure class="project-img">
@@ -768,7 +828,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="ACTIFIX-Screenshot.jpg.png" alt="ACTIFIX" loading="lazy">
+                  <img src="./assets/images/ACTIFIX-Screenshot.jpg.png" alt="ACTIFIX" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">ACTIFIX</h3>
@@ -778,7 +838,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="all">
+            <!-- <li class="project-item  active" data-filter-item data-category="all">
               <a href="https://github.com/tech-moh-logy/Realms-of-Enchantment">
 
                 <figure class="project-img">
@@ -786,7 +846,25 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="chroniclesUnveiled.jpg" alt="DSA-2" loading="lazy">
+                  <img src="./assets/images/chroniclesUnveiled.jpg" alt="DSA-2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Realms of Enhancements</h3>
+
+                <p class="project-category">Data Structures and Algorithms</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="data structures & algorithms">
+              <a href="https://github.com/tech-moh-logy/Realms-of-Enchantment">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/chroniclesUnveiled.jpg" alt="DSA-2" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Realms of Enhancements</h3>
@@ -796,7 +874,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
               </a>
             </li>
 
-            <li class="project-item active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web design + development">
 
               <a href="#">
 
@@ -805,35 +883,35 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="namasteKart-site.JPG" alt="e-Commerce" loading="lazy">
+                  <img src="./assets/images/namasteKart-site.JPG" alt="e-Commerce" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">namasteKart</h3>
 
-                <p class="project-category">Web Development</p>
+                <p class="project-category">Web Design + Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="all">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="data science/analytics">
+              <a href="https://github.com/tech-moh-logy/WeChat">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="weChat.jpg" alt="e-Commerce" loading="lazy">
+                  <img src="./assets/images/weChat.jpg" alt="e-Commerce" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">weChat</h3>
 
-                <p class="project-category">AI ChatBot</p>
+                <p class="project-category">AI ChatBot • Data Science</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="application">
+            <!-- <li class="project-item  active" data-filter-item data-category="application">
               <a href="#">
 
                 <figure class="project-img">
@@ -841,12 +919,30 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="namasteKart-app.png" alt="e-Commerce" loading="lazy">
+                  <img src="./assets/images/namasteKart-app.png" alt="e-Commerce" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">namasteKart</h3>
 
                 <p class="project-category">Application</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="artwork">
+              <a href="https://github.com/tech-moh-logy/Bugatti/blob/main/bugatti.jpg">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mohammed-Bugatti.jpg" alt="e-Commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bugatti © - Dimensions: 18” x 24"</h3>
+
+                <p class="project-category">Artwork</p>
 
               </a>
             </li>
@@ -859,10 +955,10 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="bugatti.jpg" alt="e-Commerce" loading="lazy">
+                  <img src="./assets/images/mohammed-Obama.PNG" alt="e-Commerce" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Bugatti</h3>
+                <h3 class="project-title">Barack Obama © - Dimensions: 24” x 36"</h3>
 
                 <p class="project-category">Artwork</p>
 
@@ -878,12 +974,48 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="timeSquares.JPG" alt="e-Commerce" loading="lazy">
+                  <img src="./assets/images/timeSquares.JPG" alt="e-Commerce" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Time Squares • New York, New York</h3>
 
                 <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="photography">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/47th.JPG" alt="e-Commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">47th Street • New York, New York</h3>
+
+                <p class="project-category">Photography</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science/analytics">
+              <a href="https://github.com/tech-moh-logy/Mohammed-Data-Analytics">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/data-analytics.jpg" alt="e-Commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Exploratory Project</h3>
+
+                <p class="project-category">Data Analytics</p>
 
               </a>
             </li>
@@ -917,7 +1049,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
         <a href="https://www.loom.com/share/ec8601a75b024699a3802439ccdc7e09?sid=642dd8ed-9573-40c1-888d-5144e2558ae6">
         
         <figure class="blog-banner-box">
-          <img src="ACTIFIX-Screenshot.jpg.png" alt="ACTIFIX-Screenshot" loading="lazy">
+          <img src="./assets/images/ACTIFIX-Screenshot.jpg.png" alt="ACTIFIX-Screenshot" loading="lazy">
         </figure>
         
         <div class="blog-content">
@@ -946,6 +1078,8 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
+
+        <p a href="https://www.linkedin.com/in/mohtech/" style="color: white;">Please reach out on <b class="distinction-neon-text">LinkedIn</b>.</p>
 
         <section class="mapbox" data-mapbox>
           <figure>
@@ -978,6 +1112,8 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
         </section>
 
+        <!-- <p>Please reach out on LinkedIn.</p> -->
+
       </article>
 
     </div>
@@ -985,14 +1121,25 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
   </main>
 
 
+  <footer>
+    <p style="font-size: .675rem; justify-content: center; text-align: center; color: rgb(192, 181, 181);">
+      MOHAMMED | Copyright © 2024. All Rights Reserved.
+      <br><br>
+      <a href="https://tech-moh-logy.github.io">
+        iMohammed © (Personal Website) - Crafted within an 8-hour sprint
+      </a>
+      <br>
+        Designed with Precision
+    </p>
+  </footer>
 
 
-
+  
 
   <!--
     - custom js link
   -->
-  <script src="script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
   <!--
     - ionicon link
