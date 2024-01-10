@@ -1,4 +1,4 @@
-Copyright © 2023 Mohammed. All rights reserved.
+Copyright © 2024 Mohammed. All rights reserved.
 
 Unauthorized copying, redistribution, forking, or cloning of the content of this portfolio website is strictly prohibited.
 
@@ -6,13 +6,26 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
 Welcome to the tale of iMoh, where personal websites transcend the ordinary. This isn't a story of weeks spent wrestling with code, but a three-hour whirlwind that birthed a blazing-fast, custom-crafted haven for your online identity.
 
-Imagine, armed with nothing but git commands and a vision, you embark on a digital expedition. Within hours, a bespoke website rises from the code dust, adorned with logos that whisper your uniqueness. No more one-size-fits-all cages. This is a website sculpted by your own hands, a reflection of your digital soul.
+## Unveiling the Technology: CSS, HTML, and JavaScript
 
-But speed isn't just a buzzword here. iMoh is a champion of instant gratification. We've meticulously optimized across five major platforms, squeezing every millisecond from the loading process. Mobile, tablet, desktop – it doesn't matter. Your website swoops onto the screen before you can even blink, leaving users dazzled and engaged.
+The magic of iMoh unfolds through the symphony of CSS, HTML, and JavaScript. Every line of code breathes life into your digital story, painting an immersive canvas that echoes your uniqueness.
 
-And the design? A symphony of precision. Every pixel sings in harmony, every element dances to the rhythm of user-centricity. No matter the device, no matter the browser, iMoh adapts, morphing seamlessly to deliver a unified experience. It's like a chameleon, but one that speaks the language of the web.
+### A Glimpse into the Tech Showcase:
 
-So, are you ready to shed the skin of generic online presences? iMoh awaits, a blank canvas primed for your story. Grab your git shovel, unleash your creativity, and join the revolution of personal websites. This is more than just code; it's a declaration of digital independence, and you hold the power to build your own kingdom.
+- **CSS Mastery:** Styling that mesmerizes; CSS creates an aesthetic ambiance that resonates with your identity, ensuring an immersive user experience.
+- **HTML Elegance:** The backbone of structure; HTML constructs the framework where your content takes center stage, ensuring clarity and accessibility.
+- **JavaScript Wizardry:** The interactive soul; JavaScript infuses dynamism, interactivity, and seamless functionality, making your website come alive with each click and scroll.
 
-## iMoh: Where websites become worlds.
-# tech-moh-logy-github.io
+## Speed and Adaptability Unleashed
+
+Imagine a world where sluggish load times are a distant memory. iMoh champions speed, meticulously optimized across five major platforms. From mobile to desktop, the website swoops onto the screen before you can blink, leaving users dazzled and engaged.
+
+## Precision Design, Universal Harmony
+
+At iMoh, every pixel sings in harmony, every element dances to the rhythm of user-centricity. Seamlessly adaptive across devices and browsers, iMoh delivers a unified experience, ensuring your story resonates flawlessly in any digital realm.
+
+## Join the Revolution
+
+Ready to shed the skin of generic online presences? iMoh awaits, a blank canvas primed for your story. Grab your git shovel, unleash your creativity, and join the revolution of personal websites.
+
+## iMohammed: Where websites become worlds.
