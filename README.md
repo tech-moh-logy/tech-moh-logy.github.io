@@ -2,6 +2,11 @@ Copyright © 2024 Mohammed. All rights reserved.
 
 Unauthorized copying, redistribution, forking, or cloning of the content from this portfolio website and other associated materials is strictly prohibited and will not be tolerated.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/tech-moh-logy/tech-moh-logy.github.io)
+![GitHub views](https://komarev.com/ghpvc/?username=tech-moh-logy&style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/tech-moh-logy/tech-moh-logy.github.io?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tech-moh-logy/tech-moh-logy.github.io?style=social)
+
 <img width="1440" alt="image" src="https://github.com/tech-moh-logy/tech-moh-logy.github.io/assets/132733865/f790bd91-fc91-4d14-ba68-ab95c203ead9">
 
 # Tired of cookie-cutter templates and sluggish load times?
