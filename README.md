@@ -4,9 +4,9 @@ Unauthorized copying, redistribution, forking, or cloning of the content from th
 
 <img width="1440" alt="personal website image" src="https://github.com/tech-moh-logy/tech-moh-logy.github.io/assets/132733865/ba7e6880-a613-4287-b24c-937d945c464a">
 
-<br>
+<br> <br>
 
-[UI/UX Case Study PDF](https://github.com/tech-moh-logy/UI-UX-Case-Studies/blob/main/Personal-Website/iMohammed%20©%20-%20UI_UX%20Case%20Study.pdf)
+[UI/UX Case Study PDF](https://github.com/tech-moh-logy/UI-UX-Case-Studies/blob/main/Personal-Website/iMohammed%20©%20-%20UI-UX%20Design%20Case%20Study-2.pdf)
 
 # Tired of cookie-cutter templates and sluggish load times?
 
