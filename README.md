@@ -8,11 +8,11 @@
 
 ## Overview
 
-Tired of cookie-cutter templates and sluggish load times? Welcome to the tale of iMohammed, where personal websites transcend the ordinary. This isn't a story of weeks spent wrestling with code, but a twelve-hour whirlwind that birthed a blazing-fast, custom-crafted haven for your online identity.
+Tired of cookie-cutter templates and sluggish load times? Welcome to the tale of [iMohammed](https://tech-moh-logy.github.io), where personal websites transcend the ordinary. This isn't a story of weeks spent wrestling with code, but a twelve-hour whirlwind that birthed a blazing-fast, custom-crafted haven for your online identity.
 
 ## UI/UX Case Study
 
-Explore the UI/UX Case Study PDF [here](https://github.com/tech-moh-logy/UI-UX-Case-Studies/blob/main/Personal-Website/iMohammed%20©%20-%20UI-UX%20Design%20Case%20Study-2.pdf).
+Explore the UI/UX Case Study PDF [The Case Study](https://github.com/tech-moh-logy/UI-UX-Case-Studies/blob/main/Personal-Website/iMohammed%20©%20-%20UI-UX%20Design%20Case%20Study-2.pdf).
 
 ## Technology Stack
 
