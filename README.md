@@ -12,7 +12,7 @@ Tired of cookie-cutter templates and sluggish load times? Welcome to the tale of
 
 ## UI/UX Case Study
 
-Explore the UI/UX Case Study PDF [The Case Study](https://github.com/tech-moh-logy/UI-UX-Case-Studies/blob/main/Personal-Website/iMohammed%20©%20-%20UI-UX%20Design%20Case%20Study-2.pdf).
+Explore the UI/UX Case Study PDF [here](https://github.com/tech-moh-logy/UI-UX-Case-Studies/blob/main/Personal-Website/iMohammed%20©%20-%20UI-UX%20Design%20Case%20Study-2.pdf).
 
 ## Technology Stack
 
