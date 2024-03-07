@@ -2,6 +2,15 @@
 
 ![Personal Website](https://github.com/tech-moh-logy/tech-moh-logy.github.io/assets/132733865/ba7e6880-a613-4287-b24c-937d945c464a)
 
+
+<div>
+    <img src="https://img.shields.io/badge/-HTML_5-black?style=for-the-badge&logoColor=white&logo=html5&color=E34F26" alt="html5" />
+    <img src="https://img.shields.io/badge/-css3-black?style=for-the-badge&logoColor=white&logo=css3&color=1572B6" alt="css3" />
+    <img src="https://img.shields.io/badge/-css3-black?style=for-the-badge&logoColor=white&logo=javascript&color=yello" alt="javascript" />
+</div>
+
+<br>
+
 ## Copyright
 
 © 2024 Mohammed. All rights reserved. Unauthorized copying, redistribution, forking, or cloning of the content from this portfolio website and other associated materials is strictly prohibited and will not be tolerated.
