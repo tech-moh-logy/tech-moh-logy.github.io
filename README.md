@@ -1,9 +1,8 @@
-<h3 align="center">Welcome to iMohammed: Crafting Digital Stories</h3>
+<h1 align="center">Welcome to iMohammed: Crafting Digital Stories</h3>
 
 ![Personal Website](https://github.com/tech-moh-logy/tech-moh-logy.github.io/assets/132733865/ba7e6880-a613-4287-b24c-937d945c464a)
 
-
-<div>
+<div align="center">
     <img src="https://img.shields.io/badge/-HTML_5-black?style=for-the-badge&logoColor=white&logo=html5&color=E34F26" alt="html5" />
     <img src="https://img.shields.io/badge/-css3-black?style=for-the-badge&logoColor=white&logo=css3&color=1572B6" alt="css3" />
     <img src="https://img.shields.io/badge/-javascript-black?style=for-the-badge&logoColor=white&logo=javascript&color=yellow" alt="javascript" />
