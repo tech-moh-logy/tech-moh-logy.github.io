@@ -1,4 +1,4 @@
-# Welcome to iMohammed: Crafting Digital Stories
+<h3 align="center">Welcome to iMohammed: Crafting Digital Stories</h3>
 
 ![Personal Website](https://github.com/tech-moh-logy/tech-moh-logy.github.io/assets/132733865/ba7e6880-a613-4287-b24c-937d945c464a)
 
