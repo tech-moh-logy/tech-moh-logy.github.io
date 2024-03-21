@@ -1454,7 +1454,7 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+<!--       <article class="contact" data-page="contact">
 
         <header>
           <h2 class="h2 article-title">Contact</h2>
@@ -1470,9 +1470,9 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
           </figure>
         </section>
 
-        <section class="contact-form">
+        <section class="contact-form"> -->
 
-          <h3 class="h3 form-title">Contact Form</h3>
+<!--           <h3 class="h3 form-title">Contact Form</h3>
 
           <form action="https://docs.google.com/spreadsheets/d/17t3M9RyCq1zCu5B7EWfaAgv8lf4JJlHPFgcZhaCL9sQ/edit#gid=0" class="form" data-form>
 
@@ -1491,9 +1491,51 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
           </form>
 
-        </section>
+        </section> -->
 
         <!-- <p>Please reach out on LinkedIn.</p> -->
+
+		<!-- HTML code for the contact section -->
+<article class="contact" data-page="contact">
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+  <!-- Anchor tag with embedded link -->
+  <p><a id="contact-link" href="https://www.linkedin.com/in/mohtech/" style="color: white;">Please reach out on <b class="distinction-neon-text">LinkedIn</b>.</a></p>
+  <section class="mapbox" data-mapbox>
+    <!-- Google Maps embed code -->
+    <figure>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="400" height="300" loading="lazy"></iframe>
+    </figure>
+  </section>
+  <!-- Contact form section -->
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+    <!-- Form code -->
+    <form action="https://docs.google.com/forms/d/e/your_form_id_here/formResponse" method="POST" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      <button class="form-btn" type="submit" disabled data-form-btn> <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+  </section>
+</article>
+
+<!-- JavaScript code to disable the link within the contact section -->
+<script>
+  // Get the anchor tag within the contact section
+  var contactLink = document.getElementById('contact-link');
+
+  // Add event listener to prevent default behavior when clicked
+  contactLink.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of the anchor tag
+  });
+</script>
+
 
       </article>
 
