@@ -8,35 +8,6 @@ Unauthorized copying, redistribution, forking, or cloning of the content of this
 
 'use strict';
 
-
-// Preventer Starts:
-// <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-// <script>
-// document.onkeydown = function(e) {
-//         if (e.ctrlKey &&
-//             (e.keyCode === 67 ||
-//              e.keyCode === 86 ||
-//              e.keyCode === 85 ||
-//              e.keyCode === 117)) {
-//             return false;
-//         } else {
-//             return true;
-//         }
-// };
-// $(document).keypress("u",function(e) {
-//   if(e.ctrlKey)
-//   {
-// return false;
-// }
-// else
-// {
-// return true;
-// }
-// });
-// </script>
-// Preventer Ends
-
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
@@ -192,3 +163,38 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+
+
+
+
+
+
+
+// Preventer Starts:
+// <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+// <script>
+// document.onkeydown = function(e) {
+//         if (e.ctrlKey &&
+//             (e.keyCode === 67 ||
+//              e.keyCode === 86 ||
+//              e.keyCode === 85 ||
+//              e.keyCode === 117)) {
+//             return false;
+//         } else {
+//             return true;
+//         }
+// };
+// $(document).keypress("u",function(e) {
+//   if(e.ctrlKey)
+//   {
+// return false;
+// }
+// else
+// {
+// return true;
+// }
+// });
+// </script>
+// Preventer Ends
